@@ -96,19 +96,18 @@
 * Heute hauptsächlich in Enterprise Bereich zu finden, da die Code-Qualität sehr hoch und konsistent sein kann. Im WebDev Bereich kaum bekannt.
 
 ### Konzepte
-* 
-* Oft kann aus dem Modell (dass in einer DSL geschrieben wurde) automatisiert generiert werden:
+* Aus dem Modell kann automatisiert generiert werden:
   * Dokumentation
   * Endsystem:
     * Interfaces
     * Systemkomponenten
     * Komplette Systeme inkl. Code
   * Tests
-* Kann Entwicklung agiler machen, da weniger Code geschrieben werden muss
-* Modell ist DRY, generiertes System immer konsistent
-* Ändert sich das Zielsystem oder bestimme Anforderungen muss im Idealfall nur der Generator angepasst werden und nicht das Modell
+* Kann Entwicklung agiler machen, da (deutlich!) weniger und einfacherer Code / Markup geschrieben werden muss
+* Modell ist DRY, generiertes System immer konsistent, da programmatisch abgeleitet
 * Entkopplung von Spezifikation, Endsystem und Implementierung
-* Möglich mehrere Endsysteme zu unterstützen, bzw. das Endsystem komplett auszutauschen
+  * Ändert sich das Zielsystem oder bestimme Anforderungen muss im Idealfall nur der Generator angepasst werden und nicht das Modell
+  * Möglich mehrere Endsysteme zu unterstützen, bzw. das Endsystem komplett auszutauschen
 * Generierter Code kann maschinen-optimiert sein und damit auch performanter
 * Daten (und ihre Strukturen) leben oft länger als die Systeme die sie generieren / verwenden!
 
