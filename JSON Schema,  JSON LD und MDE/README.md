@@ -59,8 +59,6 @@
 > JSON-LD kann Fakten und Sachverhalte maschineninterpretierbar beschreiben und die Semantik dahinter beschreiben. Kommt aus der Semantic Web Szene, ist allerdings deutlich pragmatischer orientiert. 
 
 ### Beispiel 
-> Beschreibt eine [schema.org/Person](http://schema.org/Person)
-
 ```json
 {
   "@context": "http://schema.org/",
@@ -71,6 +69,8 @@
   "url": "http://www.janedoe.com"
 }
 ```
+
+> Beschreibt eine [schema.org/Person](http://schema.org/Person)
 
 ### Use Cases
 * Annotation für Webseiten, hauptsächlich SEO / maschineninterpretierbarkeit (schema.org!)
@@ -112,5 +112,5 @@
 * Datenbankmodelle, inkl. CRUD
 
 ### Links
-* [Beispiel - Swagger.io](http://editor.swagger.io/#/)
-* [mobo](https://www.npmjs.com/package/mobo) -> [Project Example](https://github.com/Fannon/mobo/tree/master/examples/hardware-yaml)
+* [swagger.io](http://swagger.io/) > [Example](http://editor.swagger.io/#/) (JSON Schema based)
+* [mobo](https://www.npmjs.com/package/mobo) > [Project Example](https://github.com/Fannon/mobo/tree/master/examples/hardware-yaml) (JSON Schema based)
