@@ -1,5 +1,6 @@
 ## Intro
-Thema ist Daten und ihre Metadaten. Zusammengefasst:
+> Es geht um Daten, Metadaten und wie man aus Datenmodellen automatisiert Systeme generieren kann.
+
 * [JSON](http://json.org/) ist ein neutrales Datenformat / Notationsformat, hauptsächlich für Maschinen und Serialisation.
 * [YAML](http://yaml.org/) ist ein Superset von JSON, mehr Features, angenehmer zu schreiben
 * Es kann Daten oder Metadaten beinhalten.
