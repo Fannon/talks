@@ -40,11 +40,11 @@
 ```
 
 ### Use cases
-* Validation
-* Spezifikation (m2m)
-* Dokumentation generieren
-* Zufallsdaten generieren
-* UI / Formulare / Systeme generieren (-> MDE)
+* Validation: [online-demo](http://jsonschemalint.com/draft4/#)
+* Spezifikation: [swagger.io schema](https://github.com/swagger-api/swagger-spec/blob/master/schemas/v2.0/schema.json) (m2m)
+* Dokumentation generieren: [swagger.ui](http://petstore.swagger.io/#!/pet/addPet) [docson](https://github.com/lbovet/docson)
+* Zufallsdaten generieren: [schematic-ipsum](http://schematic-ipsum.herokuapp.com/)
+* UI / Formulare / Systeme generieren (-> MDE): [JSON Editor](http://jeremydorn.com/json-editor/), [swagger.io](http://editor.swagger.io/#/)
  
 ### Links
 * [JSON Schema](http://json-schema.org/)
@@ -87,6 +87,8 @@
 ## MDE
 > Model Driven Engineering bezeichnet die Entwicklung von (domänenspezifischen) Modellen. Ein Modell ist eine vereinfachte, reduzierte Version der Wirklichkeit.
 
+> Hauptziel: Abstraktion. In der Regel durch "domain specific languages (DSL)" bzw. "modeling / specification languages", die das fertige System auf hoher Abstraktionsebene und kompakt beschreiben.
+
 ### Hintergrund
 * Viele Begriffe: MDE, MDD, MDA
 * Großer Hype, vor allem unter UML (De facto Standard für MDE).
@@ -94,7 +96,7 @@
 * Heute hauptsächlich in Enterprise Bereich zu finden, da die Code-Qualität sehr hoch und konsistent sein kann. Im WebDev Bereich kaum bekannt.
 
 ### Konzepte
-* Hauptziel: Abstraktion, bis hin dazu "domain specific languages (DSL)" bzw. "modeling / specification languages" zu schaffen, die das fertige System auf hoher Abstraktionsebene kompakt beschreiben.
+* 
 * Oft kann aus dem Modell (dass in einer DSL geschrieben wurde) automatisiert generiert werden:
   * Dokumentation
   * Endsystem:
@@ -103,7 +105,11 @@
     * Komplette Systeme inkl. Code
   * Tests
 * Kann Entwicklung agiler machen, da weniger Code geschrieben werden muss
+* Modell ist DRY, generiertes System immer konsistent
 * Ändert sich das Zielsystem oder bestimme Anforderungen muss im Idealfall nur der Generator angepasst werden und nicht das Modell
+* Entkopplung von Spezifikation, Endsystem und Implementierung
+* Möglich mehrere Endsysteme zu unterstützen, bzw. das Endsystem komplett auszutauschen
+* Generierter Code kann maschinen-optimiert sein und damit auch performanter
 * Daten (und ihre Strukturen) leben oft länger als die Systeme die sie generieren / verwenden!
 
 ### Use Cases
